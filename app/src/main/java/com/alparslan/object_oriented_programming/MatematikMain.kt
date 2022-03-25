@@ -11,4 +11,7 @@ fun main(){
 
     m.carp(sayi1 = 2, sayi2 = 5, isim = "Alparslan")
 
+    val veri= m.bolme(sayi1 = 100.0, sayi2 = 50.5 )
+    println(veri)
+
 }

@@ -2,9 +2,7 @@ package com.alparslan.object_oriented_programming
 
 fun main(){
 
-    val o = Odev()
-    var derece = 0
-
-    o.derece()
+    var derece = Odev() //Celcius değerini Fahrenheite çeviren fonksiyon yazıp kullandık
+    derece.derece()
 
 }

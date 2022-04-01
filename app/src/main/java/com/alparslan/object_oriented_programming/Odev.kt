@@ -22,6 +22,11 @@ class Odev {
         println("Dikdörtgenin çevresi: $cevre m2")
     }
 
+    fun cevre(kisakenar:Int, uzunkenar:Int){
+        val cevreHesabi = 2*kisakenar + 2*uzunkenar
+        println("Dikdörtgen Çevresi: $cevreHesabi")
+    }
+
 
     fun faktoriyel(){
         var scanner = Scanner(System.`in`)

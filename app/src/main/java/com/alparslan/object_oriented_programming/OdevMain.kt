@@ -16,4 +16,8 @@ fun main(){
 
     var faktoriyel = Odev()
     faktoriyel.faktoriyel()
+
+    val o2 = Odev()
+    o2.cevre(30,40)
 }
+

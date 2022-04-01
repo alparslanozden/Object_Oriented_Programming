@@ -28,16 +28,16 @@ class Odev {
     }
 
 
-    fun faktoriyel(){
-        var scanner = Scanner(System.`in`)
-    println("Faktöriyeli hesaplanacak sayıyı giriniz: ")
-        var sayi = scanner.nextInt()
+    fun faktoriyel(sayi:Int):Int{
+        var sonuc = 1
         for (i in 1..sayi){
-            var sonuc= i*1
-            i+1
-            return
+            sonuc = sonuc * i
         }
+    return sonuc
     }
+
+
+
 
 
 }

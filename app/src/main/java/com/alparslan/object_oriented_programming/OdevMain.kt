@@ -29,7 +29,13 @@ fun main(){
 
 
     val o5 = Odev()
-    val sonuc = o5.icAciToplama(4)
-    println("İç açı toplamı: $sonuc")
+    val sonuc1 = o5.icAciToplama(4)
+    println("İç açı toplamı: $sonuc1")
+
+
+    val o6 = Odev()
+    val sonuc2 = o6.maasHesaplama(20)
+    println("Maaş: $sonuc2")
+
 }
 

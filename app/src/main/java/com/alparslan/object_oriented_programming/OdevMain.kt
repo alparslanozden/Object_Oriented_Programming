@@ -27,5 +27,9 @@ fun main(){
     val o4 = Odev()
     o4.kelimeAdeti("Ankara",'a')
 
+
+    val o5 = Odev()
+    val sonuc = o5.icAciToplama(4)
+    println("İç açı toplamı: $sonuc")
 }
 

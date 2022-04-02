@@ -48,6 +48,11 @@ class Odev {
         println("Harf Adeti: $sonuc")
     }
 
+    fun icAciToplama(kenarsayisi:Int):Int{
+        val toplam = (kenarsayisi-2)*180
+        return toplam
+    }
+
 
 
 

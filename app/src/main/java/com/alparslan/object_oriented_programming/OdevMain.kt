@@ -37,5 +37,10 @@ fun main(){
     val sonuc2 = o6.maasHesaplama(20)
     println("Maaş: $sonuc2")
 
+
+    val o7 = Odev()
+    val sonuc3 = o7.internetUcretiHesaplama(55)
+    println("Ücret: $sonuc3")
+
 }
 

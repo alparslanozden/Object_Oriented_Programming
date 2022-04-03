@@ -67,6 +67,18 @@ class Odev {
     }
 
 
+    fun internetUcretiHesaplama(gb:Int):Int{
+        var ucret = 0
+    if(gb > 50){
+        val kotaFazlasi = gb - 50
+        ucret = 100 + kotaFazlasi
+    }else{
+        ucret = 100
+    }
+    return ucret
+    }
+
+
 
 
 }
